@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import React, { useState } from 'react'
 import { useLocation, useNavigate } from 'react-router-dom';
 import "../style/Textform.css";
+import { BACKEND } from '../App';
 
 export default function Textform(props) {
   const location = useLocation()
@@ -12,7 +13,7 @@ export default function Textform(props) {
       alert("Your oprations are anonymous")
       return
     }
-    await axios.post("http://localhost:5000/text/add-text", {
+    await axios.post(`${BACKEND}/text/add-text`, {
       userId: localStorage.getItem("userid"),
       text: text
     }).then(() => {

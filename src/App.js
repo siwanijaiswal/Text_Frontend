@@ -15,6 +15,8 @@ import {
   Link
 } from "react-router-dom";
 
+export const BACKEND = "http://localhost:5000"
+
 function App() {
   const [mode, setMode] = useState('light'); // whether dark mode is enableed or not
 
@@ -30,7 +32,7 @@ function App() {
     }, 1500);
 
   }
-  
+
   const removeBodyClasses = () => {
     document.body.classList.remove('bg-light')
     document.body.classList.remove('bg-dark')
@@ -63,10 +65,10 @@ function App() {
         <Alert alert={alert} />
         <div className="container my-3">
           <Routes>
-            <Route path = "/" element={<Textform/>}/>
-          
-            <Route path = "/signup" element={<Signup/>}/>
-            <Route path = "/login" element={<Login/>}/>
+            <Route path="/" element={<Textform />} />
+
+            <Route path="/signup" element={<Signup />} />
+            <Route path="/login" element={<Login />} />
             <Route path="/about" element={<About mode={mode} />} />
             <Route path="/" element={<Textform heading="Try TextUtils- Word Counter, Character Counter" mode={mode}
               showAlert={showAlert} />} />

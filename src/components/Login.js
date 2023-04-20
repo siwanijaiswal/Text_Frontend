@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react"
 import axios from "axios"
 import { useNavigate, Link } from "react-router-dom"
 import "../style/Login.css";
+import { BACKEND } from "../App";
 
 function Login() {
 
@@ -11,7 +12,7 @@ function Login() {
 
   async function submit(e) {
     e.preventDefault()
-    axios.post('http://localhost:5000/auth/login', {
+    axios.post(`${BACKEND}/auth/login`, {
       email: email,
       password: password
     }).then((res) => {
@@ -30,12 +31,12 @@ function Login() {
     <div className="login">
       <h1 className="log">Login</h1>
       <div className="login-details">
-      <form action="POST">
-        <input type="email" onChange={(e) => { setEmail(e.target.value) }} placeholder="Email" />
-        <input type="password" onChange={(e) => { setPassword(e.target.value) }} placeholder="Password" />
+        <form action="POST">
+          <input type="email" onChange={(e) => { setEmail(e.target.value) }} placeholder="Email" />
+          <input type="password" onChange={(e) => { setPassword(e.target.value) }} placeholder="Password" />
 
-        <input type="submit" onClick={submit} />
-      </form>
+          <input type="submit" onClick={submit} />
+        </form>
       </div>
 
       <br />
