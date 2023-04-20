@@ -11,7 +11,7 @@ function Login() {
 
   async function submit(e) {
     e.preventDefault()
-    axios.post('http://localhost:8000/auth/login', {
+    axios.post('http://localhost:5000/auth/login', {
       email: email,
       password: password
     }).then((res) => {

@@ -10,7 +10,7 @@ function Signup() {
 
   async function submit(e) {
     e.preventDefault();
-    axios.post("http://localhost:8000/auth/signup", {
+    axios.post("http://localhost:5000/auth/signup", {
       email: email,
       password: password,
     }).then((res) => {

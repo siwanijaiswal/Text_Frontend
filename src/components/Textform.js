@@ -12,7 +12,7 @@ export default function Textform(props) {
       alert("Your oprations are anonymous")
       return
     }
-    await axios.post("http://localhost:8000/text/add-text", {
+    await axios.post("http://localhost:5000/text/add-text", {
       userId: localStorage.getItem("userid"),
       text: text
     }).then(() => {
