@@ -14,7 +14,7 @@ import {
   Route,
 } from "react-router-dom";
 
-export const BACKEND = "https://text-backendd.onrender.com/"
+export const BACKEND = "https://text-backendd.onrender.com"
 
 function App() {
   const [mode, setMode] = useState('light'); // whether dark mode is enableed or not
