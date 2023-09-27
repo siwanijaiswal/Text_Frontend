@@ -43,9 +43,7 @@ function Signup() {
             }}
             placeholder="Password"
           />
-
           <input type="submit" onClick={submit} />
-
         </form>
       </div>
 

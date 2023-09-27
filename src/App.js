@@ -12,7 +12,6 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
-  Link
 } from "react-router-dom";
 
 export const BACKEND = "http://localhost:5000"
@@ -30,9 +29,7 @@ function App() {
     setTimeout(() => {
       setAlert(null);
     }, 1500);
-
   }
-
   const removeBodyClasses = () => {
     document.body.classList.remove('bg-light')
     document.body.classList.remove('bg-dark')
