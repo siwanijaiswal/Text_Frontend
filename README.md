@@ -1,5 +1,5 @@
 #  TextAnalyzer-ReactApp
-## Live hosted here: https://text-utils-siwani.netlify.app/
+## Live hosted here: https://fullstack-text-analyzer-webapp.netlify.app/        
 ## Screenshots 📸
 
 <div>
@@ -23,9 +23,9 @@
    - CSS
    - Javascript
    - ReactJs
-   -Nodejs
-   -Express
-   -Mongodb
+   - Nodejs
+   - Express
+   - Mongodb
    
  ### Frameworks
   - Bootstrap
