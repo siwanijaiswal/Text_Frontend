@@ -1,20 +1,35 @@
-Features:
--Convert to Uppercase
--Convert to Lowercase
--Clear Text
--Download Text
--Reverse Text
--First Letter Uppercase
--Copy Text
+#  TextAnalyzer-ReactApp
+## Live hosted here: https://text-utils-siwani.netlify.app/
+## Screenshots 📸
 
-Tech Used:
--Html
--CSS
--Javascript
--ReactJs
--Nodejs
--Express
--Mongodb
+<div>
+ <img src="https://user-images.githubusercontent.com/109847669/216702971-5d93cc44-7641-4911-9d90-9f8fd141c39b.jpg"  width="100%"/>
+</div>
 
-Frameworks:
-#Bootstrap
+<hr/>
+
+
+### Features :
+  - Convert to Uppercase
+  - Convert to Lowercase
+  - Clear Text
+  - Download Text
+  - Reverse Text
+  - First Letter Uppercase
+  - Copy Text
+
+### Tech Used :
+   - Html
+   - CSS
+   - Javascript
+   - ReactJs
+   -Nodejs
+   -Express
+   -Mongodb
+   
+ ### Frameworks
+  - Bootstrap
+
+<h3 align="center"> DON'T FORGET TO ⭐ THIS REPOSITORY !!
+</h3> 
+
