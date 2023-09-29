@@ -12,6 +12,9 @@ Tech Used:
 -CSS
 -Javascript
 -ReactJs
+-Nodejs
+-Express
+-Mongodb
 
 Frameworks:
 #Bootstrap
